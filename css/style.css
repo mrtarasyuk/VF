@@ -1,0 +1,346 @@
+body{
+	font-family: 'Berkshire Swash','Nanum Pen Script','Great Vibes', sans-serif;
+margin: 0;
+
+}
+.wrapper{
+
+	max-width: 100%;
+	max-height: 80px;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	max-height: 30%;
+	background-image: url(../images/mertsanie-v-nochnom-nebe.jpg);
+	border: 2px solid #fff;
+	z-index: 22;
+}
+.header-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+.logo img{
+	max-width: 60px;
+	display: flex;
+	
+}
+.mobile{
+	right: 
+}
+.telephone a{
+	text-decoration: none;
+	color: white;
+}
+.telephone a:hover{
+	color: rgb(127, 255, 212);
+	transition: 0.3s;
+
+}
+img.image{
+	margin-top: 70px;
+
+}
+.menu{
+	list-style:none;
+	display: flex;
+
+}
+.menu-header:hover{
+	background:rgba(255,255,255,0.3);
+	transition: 0.35s;
+}
+.menu-header{
+	margin-left: 60px;
+	border: 2px solid#7FFFD4;
+	padding: 8px;
+}
+.menu-link{
+	text-decoration: none;
+	color: #7FFFD4;
+	font-size: 20px;
+}
+.imageF{
+	position: absolute;
+	margin-top:70px;
+	
+}
+.wer{
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding-left: 700px;
+	}
+	h2{
+		letter-spacing: 1px;
+		font-size: 30px;
+		border: 2px solid#fff;
+		padding: 10px;
+	}
+	span>a>h2{
+		justify-content: center;
+		display: flex;
+		color: #fff;
+	}
+	span>a{
+		text-decoration: none;
+	}
+	h2:hover{
+		background: rgba(224,255,255,0.3);
+		transition: 0.4s;
+	}
+	.wer>span>a>img{
+	margin-left: 200px;
+	
+}
+.video {
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+.video a{
+		text-decoration: none;
+		color: #fff;
+		border: 2px solid #fff;
+		padding: 10px;
+}
+
+iframe.videof{
+display: block;
+position: relative;
+padding-left: 160px;
+}
+.learn{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+/* ПРоэкт */
+.progimg{
+	
+
+}
+.classs{
+	position: absolute;
+	background-image: url(../images/butylka-vina-na-plyazhe.jpg );
+	width: 100%;
+	height: 1000px;
+}
+/* team */
+.icon-user-tie{
+	color: #fff;
+	text-shadow:3px 3px 3px #000;
+}
+.box-team{
+padding:30px 0 px;
+}
+.team-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   	position: relative;
+	margin-top: 150px;
+}
+.team-list-item{
+    width: 269px;
+
+    padding: 25px 15px 30px;
+    text-align: center;
+    background: rgba(0, 206, 209,0.4);
+
+}
+.team-list-img{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+.team-list-item:hover{
+	border-color: 
+
+}
+.team-list-img:after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 202px;
+    width: 202px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.team-list-img >img{
+    height: 100%;
+    font-weight: 100%;
+    border-radius: 50%;
+    display:block;
+}
+.team-list-item h6{
+    color:  #fff;
+    margin-top: -3px;
+}
+.team-list-job{
+	color: white;
+	font-family: 'Arial';
+	font-size: 15px;
+	font-weight: 400;
+
+}
+.team-list-item p{
+    margin-top: -20px;
+}
+.social-link{
+    color: white;
+    text-decoration: black;
+    font-size: 40px;
+    text-shadow:3px 3px 3px #000;
+ }
+
+
+ .icon-facebook2{
+color: #3b5998;
+ }
+ .icon-telegram{
+color: #0088cc;
+ }
+.icon-vk{
+color: #45668e;
+}
+.icon-instagram{
+color: #bc2a8d;}
+ .icon-facebook2:hover{
+color: #fff;
+ }
+ .icon-telegram:hover{
+color: #fff;
+ }
+.icon-vk:hover{
+color: #fff;
+}
+.icon-instagram:hover{
+color: #fff;}
+.facts-list{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-list-item:hover .facts-list-icon{
+    border-color: #fff;
+
+}
+.facts-list-item:hover .facts-list-icon{
+    border-color: #fff;}
+.facts-list-item:hover .facts-list-icon [class *='icon']:before{
+color:  #fff ;
+transition: 0.5s;}
+
+.facts-list-icon{
+    width: 130px;
+    height: 130px;
+    border:2px solid #fff;
+    border-radius: 50%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+        font-size: 30px;
+        color: black;
+        color: #FFF;
+        transition: 0.5s;
+}
+.facts-list h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+.facts-list h5 span{
+font-size: 35px;
+display: block;
+text-align: center;
+}
+h6{
+	   color: #fff;
+	   text-shadow:3px 3px 3px #000;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+p{
+		   color: #fff;
+		   text-shadow:3px 3px 3px #000;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.footer{
+	display: flex;
+}
+.footer-item{
+	margin-top: 50px;
+	color: white;
+	background: rgba(72, 209, 204,0.3);
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-size: 23px;
+}
+.team h5 {
+	color: #fff;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+	margin-bottom: -140px;
+	text-shadow:3px 3px 3px #000;
+}
+.teamm h5 {
+	color: #fff;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+	margin-bottom: -10px;
+	text-shadow:3px 3px 3px #000;
+}
+
+.mypro{
+	position: absolute;
+	background-image: url(../images/korabliki.jpg) ;
+	width: 100%;
+	height: 800px;
+}
+.progimg{
+	position: relative;
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.photo{
+	padding: 10px 20px;
+	border: 2px solid #fff;
+	background:rgba(127, 255, 212,0.4);
+	
+}
+.photoo{
+		width: 200px;
+		height: 200px;}
